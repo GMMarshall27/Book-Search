@@ -10,7 +10,7 @@ type User {
 }
 
 type Book {
-    bookdId: ID!
+    bookId: ID!
     authors: [String]
     description: String
     image: String
